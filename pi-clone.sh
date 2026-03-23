@@ -19,7 +19,7 @@
 # Default devices for Raspberry Pi
 DEV_USB="/dev/sdb"
 DEV_SD="/dev/mmcblk0"
-ROOT_SIZE="20G"        # Fixed size for the System partition
+#ROOT_SIZE="20G"        # Fixed size for the System partition
 ROOT_SIZE=16           # Fixed size in GB for the System partition
 MIN_DATA_SIZE=5        # Minimum remaining space in GB to trigger a DATA partition
 
